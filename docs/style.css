@@ -1,0 +1,313 @@
+/* custom enlarged css style sheet - still in progress, could use some tidying*/
+
+a:link
+{
+    color: #2f7a70;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: #2f7a70;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #2f7a70;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-weight:normal;
+  margin:0;
+  padding:0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  margin:0;
+  padding:0;
+}
+
+h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a
+{
+  color:#2f7a70;
+}
+
+h1 {font-size:1.9em;line-height:1.34;}
+h2 {font-size:1.7em;line-height:1.34;}
+h3 {font-size:1.4em;line-height:1.34;}
+h4 {font-size:1.2em;line-height:1.34;}
+h5 {font-size:1.1em;line-height:1.34;}
+h6 {font-size:1em;line-height:1.34;}
+
+.red{ color: #C0272D; }
+.blue{ color: #2f7a70; }
+.green{ color: #417A0A; }
+/* Jlab green: #417A0A*/
+/* Jlab blue: #2f7a70 */
+/* JLab red: #C0272D */
+/* tcd blue: #047fb0 */
+
+hr
+{
+    width: 100%;
+}
+
+img
+{
+    border: 0px;
+}
+
+img.results
+{
+    border: 0px;
+    display: block;
+}
+
+p
+{
+    font-size: 115%; 
+    text-align: justify;
+}
+
+p.side
+{
+    line-height: 150%;
+    text-align: left;
+}
+
+p.note
+{
+    font-style: italic;
+    font-size: 75%;
+    text-align: right;
+}
+
+p.contact
+{
+    font-style: italic;
+/*    font-weight: bold;*/
+}
+
+p.caption
+{
+/*    font-size: 75%; */
+}
+
+span.var
+{
+    font-family: serif;
+}
+
+li
+{
+    padding: 1px;
+    font-size: 100%;
+}
+
+ul.publications li
+{
+    padding: 0px 0px 10px 0px;
+}
+
+div.top
+{
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.navigation
+{
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.main
+{
+
+}
+
+div.about
+{
+  padding: 20px 80px 80px 80px;
+}
+
+table.navigation
+{
+  margin: 0 auto;
+}
+
+td.navigation
+{
+  background-color: #FFFFFF;
+}
+
+td.navigation a
+{
+  padding: 8px 7px 8px 7px;
+  margin: -8px -7px -8px -7px;
+}
+
+td.navigation:hover
+{
+  background-color: #eee;
+}
+
+td.navigation-selected
+{
+  background-color: #FFFFFF;
+}
+
+td.navigation-selected:hover
+{
+  background-color: #eee;
+}
+
+td.navigation-selected a
+{
+  color: #C0272D;
+  padding: 8px 7px 8px 7px;
+  margin: -8px -7px -8px -7px;
+}
+
+td
+{
+   vertical-align: top;
+   padding: 7px;
+}
+
+td.people
+{
+    font-size: 95%;
+    vertical-align: top;
+    padding: 0px 0px 15px 0px;
+}
+
+th
+{
+    vertical-align: top;
+    text-align: center;
+}
+
+th.people
+{
+    vertical-align: top;
+    text-align: center;
+    padding: 0px 20px 15px 10px;
+}
+
+
+.wrap {text-align:left;margin:0 auto;padding:0px;width:auto;max-width:1024px;background:#fff;}
+.small_wrap {text-align:center;margin:0px 40px 40px 0px;padding:40px;width:auto;max-width:600px;background:#fff;}
+
+
+/* sets fonts and some overall margins*/
+html {
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:100%;
+}
+
+body {
+  margin: 0;
+  padding:0px 64px 64px 36px;
+  background:#e1e6ea;
+  font-size:0.75em;
+  text-align:left;
+  line-height:1.5;
+  color:#333;
+}
+
+img {border:0px solid #ddd;padding:3px;}
+img.no-border {border:0;padding:0;}
+/*end test*/
+
+
+/* -- horizontal alternating greys style table -- */
+table.highlights, table.publications {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: none;
+}
+th.highlights, td.highlights, th.publications, td.publications {
+  border-top: 0px solid #FFFFFF;
+  border-bottom: 0px solid #FFFFFF;
+  border-left: 0px solid #FFFFFF;
+  border-right: 0px solid #FFFFFF;
+  padding: 7px;
+}
+th.highlights, th.publications {
+  background-color: #DFEFFF;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+td.publications
+{
+  vertical-align: bottom;
+}
+tr.highlights:nth-child(odd){
+  background-color:#eee;
+}
+tr.highlights:nth-child(even){
+  background-color:#fafafa;
+}
+tr.publications:nth-of-type(even) {
+  background-color:#eee;
+}
+tr.publications:nth-of-type(odd) {
+  background-color:#fafafa;
+}
+tr.year td
+{
+  padding-top: 25px;
+}
+/* end -- alternating greys style table -- */
+
+/* -- vertical alternating greys -- */
+table.vert {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: none;
+}
+th.vert, td.vert {
+  border-top: 0px solid #FFFFFF;
+  border-bottom: 0px solid #FFFFFF;
+  border-left: 0px solid #FFFFFF;
+  border-right: 0px solid #FFFFFF;
+  padding: 4px;
+  text-align: center;
+}
+th.vert {
+  background-color: #DFEFFF;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+td.vert:nth-child(odd) {
+  background-color:#eee;
+}
+td.vert:nth-child(even) {
+  background-color:#fafafa;
+}
+/* -- end vertical alternating greys -- */
+
+/*/ Main block, white background, common to all pages, used in top.html/*/
+div.backgr {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  align-self: center;
+  background-color: white;
+  height: 100%;
+  display:block;
+}

@@ -1,0 +1,28 @@
+
+<table class="navigation"><tr class="navigation">
+  
+  <td {% if page.url == "/" or page.url contains "index.html" %}class="navigation-selected"{% else %}class="navigation"{% endif %}>
+    <a href="index.html">Home</a>
+  </td>
+
+  <td {% if page.url contains "about.html" %}class="navigation-selected"{% else %}class="navigation"{% endif %}>
+    <a href="about.html">About</a>
+  </td>
+
+  <td {% if page.url contains "results.html" %}class="navigation-selected"{% else %}class="navigation"{% endif %}>
+    <a href="results.html">Highlights</a>
+  </td>
+
+  <td {% if page.url contains "people.html" %}class="navigation-selected"{% else %}class="navigation"{% endif %}>
+    <a href="people.html">People</a>
+  </td>
+
+  <td {% if page.url contains "support.html" %}class="navigation-selected"{% else %}class="navigation"{% endif %}>
+    <a href="support.html">Support</a>
+  </td>
+
+  <td {% if page.url contains "publications.html" %}class="navigation-selected"{% else %}class="navigation"{% endif %}>
+    <a href="publications.html">Publications</a>
+  </td>
+  
+</tr></table>
